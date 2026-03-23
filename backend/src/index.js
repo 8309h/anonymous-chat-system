@@ -15,9 +15,11 @@ app.use(express.json());
 const server = http.createServer(app);
 
 const io = new Server(server, {
-      cors: {
-            origin: "*",
-      },
+  cors: {
+    origin: process.env.CLIENT_URL,
+    methods: ["GET", "POST"],
+  },
+  transports: ["websocket"],
 });
 
 // Initialize socket

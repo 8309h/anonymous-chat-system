@@ -1,5 +1,5 @@
-# anonymous-chat-system
-# 🚀 Anonymous Random Chat System
+
+# Anonymous Random Chat System
 
 ## 🌐 Live Demo
 

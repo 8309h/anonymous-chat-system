@@ -1,4 +1,3 @@
-const { Timestamp } = require("mongodb");
 
 const MAX_MESSAGE_LENGTH = 500;
 
